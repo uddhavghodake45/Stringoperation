@@ -52,7 +52,7 @@ char *copy(char *dest, char *src) {
          src++;
      }
      src = '\0';
-     return *start;
+     return 0;
 }
 
 char * compare(char *dest, char *src) {
