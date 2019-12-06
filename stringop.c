@@ -54,7 +54,7 @@ char *copy(char *dest, char *src) {
 }
 
 char * compare(char *dest, char *src) {
-    int i = 0, flag = 0;
+    int flag = 0;
     while(*dest != '\0' && *src != '\0') 
     {
         if(*dest != *src) 
