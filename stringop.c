@@ -45,7 +45,6 @@ int main() {
 	return 0;
 }
 char *copy(char *dest, char *src) {
-    char *start =dest;
      while(*src!='\0') {
          *dest =*src;
          dest++;
