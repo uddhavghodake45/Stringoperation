@@ -51,7 +51,6 @@ char *copy(char *dest, char *src) {
          dest++;
          src++;
      }
-     src = '\0';
      return 0;
 }
 
